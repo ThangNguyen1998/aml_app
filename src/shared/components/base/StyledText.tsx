@@ -15,7 +15,7 @@ const StyledText = (props: StyledTextProps) => {
     const { t } = useTranslation()
     return (
         <Text style={[styles.text, props.customStyle]} {...props}>
-            {i18next.exists(props.children, props.i18Params) ? t(props.children, props.i18Params) : props.children}
+            {t(props.children, props.i18Params)}
         </Text>
     )
 }

@@ -9,5 +9,6 @@ const LOGIN_ROUTE = {
 }
 const HOME_ROUTE = {
     home: 'HOME',
+    clinic: 'CLINIC',
 }
 export { APP_ROUTE, LOGIN_ROUTE, HOME_ROUTE }

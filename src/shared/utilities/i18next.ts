@@ -4,13 +4,13 @@ import en from 'assets/locates/en'
 import jp from 'assets/locates/jp'
 import { initReactI18next } from 'react-i18next'
 
-const DEFAULT_LANG = 'en'
+const DEFAULT_LANG = 'jp'
 
 export const getLanguage = () => {
     const lan = getLocales()
     try {
         const primaryLocate = lan[0]
-        return primaryLocate.languageCode
+        return DEFAULT_LANG
     } catch (error) {
         return DEFAULT_LANG
     }

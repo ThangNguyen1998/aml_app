@@ -6,12 +6,14 @@ import HomeView from 'feature/home/HomeView'
 import LoginView from 'feature/login/LoginView'
 import navigationConfigs from '../config/options'
 import { LOGIN_ROUTE, HOME_ROUTE } from '../config/routes'
+import ClinicView from 'feature/clinic/ClinicView'
 
 const Stack = createStackNavigator()
 
 const LoginStack = () => {
     return (
         <Stack.Navigator headerMode={'none'}>
+            <Stack.Screen name={HOME_ROUTE.clinic} component={ClinicView} />
             <Stack.Screen name={LOGIN_ROUTE.login} component={LoginView} />
         </Stack.Navigator>
     )

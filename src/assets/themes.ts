@@ -6,10 +6,10 @@ const common = {
 const Light = {
     COLORS: {
         ...common,
-        primary: '#607d8b',
-        secondary: '#607d8b',
-        textPrimary: '#607d8b',
-        textSecondary: '#607d8b',
+        primary: '#ffffff',
+        secondary: '#000000',
+        textPrimary: '#000000',
+        textSecondary: '#6C757D',
     },
     FONTS: {
         defaultFont: 'Montserrat-Regular',
