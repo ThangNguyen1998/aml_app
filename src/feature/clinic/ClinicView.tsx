@@ -10,7 +10,7 @@ const ClinicView = () => {
             <StyledText customStyle={styles.styleSelectedClinic}>{'common.selectedClinic'}</StyledText>
             <InformationCard
                 name={'common.nameOfClinic'}
-                description={'common.description'}
+                description={'common.descriptionOfCard'}
                 isBoder={true}
                 isButton={true}
             />
@@ -41,6 +41,12 @@ const styles = ScaledSheet.create({
     confirmButton: {
         width: '130@s',
         height: '35@vs',
+    },
+    test: {
+        height: 100,
+        width: 100,
+        backgroundColor: 'green',
+        elevation: 10,
     },
 })
 export default ClinicView

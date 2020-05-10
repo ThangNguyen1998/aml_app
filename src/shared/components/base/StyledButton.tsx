@@ -7,8 +7,8 @@ import { StyledText } from '.'
 interface StyledButtonProps {
     title: string
     customStyle?: StyleProp<ViewStyle>
-
-    onPress(): void
+    customStyleText?: StyleProp<ViewStyle>
+    onPress?(): void
 
     onLongPress?(): void
 }
@@ -20,7 +20,7 @@ const StyledButton = (props: StyledButtonProps) => {
             onPress={props.onPress}
             onLongPress={props.onLongPress}
         >
-            <StyledText style={styles.title}>{props.title}</StyledText>
+            <StyledText style={[styles.title, props.customStyleText]}>{props.title}</StyledText>
         </TouchableRipple>
     )
 }

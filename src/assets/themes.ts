@@ -7,9 +7,9 @@ const Light = {
     COLORS: {
         ...common,
         primary: '#ffffff',
-        secondary: '#000000',
+        secondary: '#E9ECEF',
         textPrimary: '#000000',
-        textSecondary: '#6C757D',
+        textSecondary: '#ADB5BD',
     },
     FONTS: {
         defaultFont: 'Montserrat-Regular',

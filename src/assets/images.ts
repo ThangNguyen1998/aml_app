@@ -5,6 +5,7 @@ const Images = {
         uncheck: require('../assets/icon/ic_uncheck.png'),
         check: require('../assets/icon/ic_check.png'),
         clinic: require('../assets/icon/ic_clinic.png'),
+        note: require('../assets/icon/ic_note.png'),
     },
     photo: {
         logo: require('../assets/img/logo.png'),
